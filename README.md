@@ -5,6 +5,7 @@ This is a personal project of mine using all the lessons learned through several
 
 ##External Libs
 * Requirejs
+* jQuery
 
 ##Patterns
 
