@@ -1,3 +1,4 @@
-require([], function() {
-	
+require(['jquery'], function($) {
+
+	window.$ = $;
 });
