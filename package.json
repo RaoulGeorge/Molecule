@@ -1,0 +1,22 @@
+{
+  "name": "Molecule",
+  "version": "1.0.0",
+  "description": "A Single Page Ecosystem",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaoulGeorge/Molecule.git"
+  },
+  "author": "Raoul George",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaoulGeorge/Molecule/issues"
+  },
+  "homepage": "https://github.com/RaoulGeorge/Molecule"
+}
