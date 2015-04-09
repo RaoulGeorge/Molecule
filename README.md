@@ -25,3 +25,4 @@ These notes are for personal use only. Just tiny tidbits I write down.
 
 #### package.json
 Set this up using `npm init` in the app folder. Need this in place for grunt.
+Use `npm install <pkg> --save` afterwards to install a package and save it as a dependency in the package.json file
