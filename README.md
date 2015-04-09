@@ -30,3 +30,8 @@ Use `npm install <pkg> --save` afterwards to install a package and save it as a 
 #### Grunt
 * Create a Gruntfile
 * install grunt using `npm install grunt`
+
+####SASS & Watch
+`npm install grunt-contrib-sass --save-dev`
+
+`npm install grunt-contrib-watch --save-dev`
