@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/RaoulGeorge/Molecule/issues"
   },
-  "homepage": "https://github.com/RaoulGeorge/Molecule"
+  "homepage": "https://github.com/RaoulGeorge/Molecule",
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
