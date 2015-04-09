@@ -11,5 +11,10 @@ define(function(require) {
 
 	}
 
+	Composer.prototype.composeScaffolding = function Composer_composeScaffolding() {
+
+		
+	};
+
 	return Composer;
 });
