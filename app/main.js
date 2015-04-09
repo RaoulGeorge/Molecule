@@ -1,8 +1,8 @@
 require(['jquery'], function($) {
+	'use strict';
+	
 	window.$ = $;
 	require(['application/application'], function(App) {
-		debugger
-		var app = new App();
-		app.start();
-	})
+		App.start();
+	});
 });

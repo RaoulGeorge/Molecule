@@ -6,9 +6,9 @@ define (function(require) {
 	}
 
 	Application.prototype.start = function Application_start() {
-		
+
 	};
 
-	return Application;
+	return new Application();	//Singeton
 
 });
