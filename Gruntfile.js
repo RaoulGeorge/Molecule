@@ -8,14 +8,22 @@ module.exports = function(grunt) {
 				}
 			}
 		},
+		jshint: {
+		    all: ['Gruntfile.js', 'app/**/*.js', 'test/**/*.js']
+		},
 		watch: {
 			css: {
 				files: '**/*.scss',
 				tasks: ['sass']
+			},
+			js: {
+				files: '**/*.js',
+				tasks: ['jshint']
 			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.registerTask('default',['watch']);
+	grunt.registerTask('default',['jshint', 'watch']);
 };
