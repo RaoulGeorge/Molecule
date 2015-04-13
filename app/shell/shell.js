@@ -5,6 +5,10 @@
 define(function(require) {
 	'use strict';
 
+	var LeftNav = require('./left-nav'),
+		Header = require('./header'),
+		Footer = require('./footer');
+
 	function Shell() {
 
 
@@ -12,6 +16,9 @@ define(function(require) {
 
 	Shell.prototype.activate = function Shell_activate() {
 		console.log('activating shell');
+		this.leftnav = new LeftNav();
+		this.header = new Header();
+		this.footer = new Footer();
 	};
 
 	return Shell;
