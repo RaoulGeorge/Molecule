@@ -1,0 +1,1 @@
+!function(){var e=Handlebars.template,a=Handlebars.templates=Handlebars.templates||{};a["shell/left-nav/view"]=e({compiler:[6,">= 2.0.0-beta.1"],main:function(){return"<div>\r\nABC\r\n</div>  "},useData:!0}),a["shell/left-nav/view2"]=e({compiler:[6,">= 2.0.0-beta.1"],main:function(){return"<div></div>"},useData:!0})}();

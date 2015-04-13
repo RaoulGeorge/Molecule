@@ -1,0 +1,1 @@
+handlebars -m app/ > templates.js
