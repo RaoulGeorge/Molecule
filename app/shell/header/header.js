@@ -1,7 +1,17 @@
 define(function(require) {
 	'use strict';
-	
-	function Header() {}
+
+	var HeaderView = require('./header-view');
+
+	function Header() {
+		this.init();
+	}
+
+	Header.prototype.init = function Header_init() {
+		debugger
+		this.headerView = new HeaderView();
+		$(body).append(headerView.render());
+	}
 
 	return Header;
 

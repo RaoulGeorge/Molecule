@@ -16,7 +16,7 @@ define(function(require) {
 	Shell.prototype.activate = function Shell_activate() {
 		console.log('activating shell');
 		this.leftnav = new LeftNav();
-		this.header = new Header();
+		//this.header = new Header();
 		this.footer = new Footer();
 	};
 
