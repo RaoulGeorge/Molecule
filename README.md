@@ -33,3 +33,6 @@ Use `npm install <pkg> --save` afterwards to install a package and save it as a 
 `npm install grunt-contrib-sass --save-dev`
 
 `npm install grunt-contrib-watch --save-dev`
+
+####Handlebars
+`npm install grunt-contrib-handlebars --save-dev`

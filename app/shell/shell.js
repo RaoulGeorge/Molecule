@@ -6,7 +6,7 @@ define(function(require) {
 	'use strict';
 
 	var LeftNav = require('./left-nav'),
-		Header = require('./header'),
+		Header = require('./header/header'),
 		Footer = require('./footer');
 
 	function Shell() {

@@ -4,7 +4,9 @@
         paths: {
             'jquery': '../lib/jquery-2.1.3.min',
             'backbone': '../lib/backbone-min',
-    		'underscore': '../lib/underscore-min'
+    		'underscore': '../lib/underscore-min',
+            'text': '../lib/text',
+
         },
         shim: {
  			'backbone': {
